@@ -36,7 +36,7 @@ function randomImags() {
     if (randomBackgrounds == true) {
         backgroundIntreval = setInterval(function(){
             let randomNumbers = Math.floor(Math.random() * backgrounds.length);
-            document.querySelector(".landing-background").style.backgroundImage = `url("./images/0${backgrounds[randomNumbers]}")`
+            document.querySelector(".landing-background").style.backgroundImage = `url("../images/0${backgrounds[randomNumbers]}")`
         }, 5000)
     } 
 }
